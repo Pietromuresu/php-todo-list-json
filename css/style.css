@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Dongle', sans-serif;
+  min-height: 100vh;
+  padding-top: 200px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.errorMessage{
+  text-align: center;
+  color: red;
+  font-size: 23px;
+}
+
+.logo {
+  width: 300px;
+  margin: 30px auto;
+}
+
+.logo img{
+  height: 70px;
+}
+
+.input-container{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.input-container input {
+  line-height: 35px;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.input-container button {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.tasks-container {
+  width: 50%;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #d5d2d2;
+}
+
+.tasks-list li{
+  display: flex;
+  justify-content: space-between;
+  line-height: 40px;
+  border-top: 1px solid grey;
+  cursor: pointer;
+}
+
+.tasks-list li span{
+  font-size: 25px;
+}
+
+.tasks-list li i{
+  margin-right: 5px;
+  line-height: 40px;
+  color: rgb(88, 81, 73);
+}
+
+.tasks-list li:hover{
+  background-color: #c4c4c4;
+}
+
+.tasks-list li i:hover{
+  color: red;
+}
+
+.tasks-list li:last-child{
+  border-bottom: 1px solid grey;
+}
